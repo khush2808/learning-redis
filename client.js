@@ -1,4 +1,4 @@
-import { Redis } from 'redis';
+import { Redis } from 'ioredis';
 
 const client = new Redis({
     host: 'localhost',
@@ -15,5 +15,5 @@ client.get('key',(err,value)=>{
         console.log(value);
     }
 });
+export default client;
 
-client.quit();
