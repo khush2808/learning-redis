@@ -1,0 +1,23 @@
+{
+  "name": "learning-redis",
+  "version": "1.0.0",
+  "description": "I know what redis is and where its used, however I never actually used it in a project or tried to learn about its utilities or sdks across languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khush2808/learning-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khush2808/learning-redis/issues"
+  },
+  "homepage": "https://github.com/khush2808/learning-redis#readme",
+  "dependencies": {
+    "ioredis": "^5.6.1"
+  }
+}
